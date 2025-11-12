@@ -1,7 +1,7 @@
 console.log("✅ script.js is running");
 
 // Countdown timer
-    const weddingDate = new Date("2025-10-10T12:00:00").getTime();
+    const weddingDate = new Date("2025-12-06T12:00:00").getTime();
   
     function updateCountdown() {
       const now = new Date().getTime();
