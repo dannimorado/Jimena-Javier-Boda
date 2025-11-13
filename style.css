@@ -739,7 +739,7 @@
 /* Responsive for Mobile */
 @media (max-width: 768px) {
     .background-image {
-        background: url(imagenes/background-image.jpg) no-repeat center center/cover;
+        background: url(imagenes/Background-image.jpg) no-repeat center center/cover;
       }
     
   .hero-top h1 {
