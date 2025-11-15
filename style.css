@@ -121,28 +121,50 @@ section h4 {
   }
 
 .countdown-section {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  background-color: #ffffff; /* soft neutral background */
-  color: #1a1a1a;
-  padding: 1rem;
+  padding: 2rem 1rem;
   text-align: center;
-  width: 100%;
-  box-sizing: border-box; 
+  background-color: #ffffff; /* soft neutral background */
+ 
 }
 
-  .countdown-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
+.countdown-title {
+  font-family: 'Great Vibes', cursive; /* Or your chosen cursive font */
+  font-size: 4rem;
+  color: #5b6f52;
+  margin-bottom: 1rem;
+}
+
+ .countdown-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
   
+.countdown-box {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 1rem;
+  min-width: 70px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.count-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Label styling */
+.count-label {
+  font-size: 0.9rem;
+  color: #333;
+}
 .countdown-wrapper h2 {
     font-family: 'Playfair Display', serif;
     font-size: 4rem;
@@ -171,6 +193,17 @@ section h4 {
     margin: 1rem auto; /* space between title and lines */
     max-width: 95vw;
   }
+/* Responsive scaling */
+@media (max-width: 480px) {
+  .count-number {
+    font-size: 2.2rem;
+  }
+
+  .countdown-box {
+    min-width: 60px;
+    padding: 0.8rem;
+  }
+}
 
 .time-box {
   max-width: 80px;
