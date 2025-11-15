@@ -117,7 +117,7 @@ section h4 {
   
 .countdown-wrapper h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 4rem;
     color: #1a1a1a !important; /* olive accent */
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -151,7 +151,7 @@ section h4 {
 
 .time-box span {
   font-family: 'Playfair Display', serif;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: #1a1a1a;
   letter-spacing: 1px;
@@ -159,7 +159,7 @@ section h4 {
 
 .time-box small {
   font-family: 'Cormorant Infant', Georgia, "Times New Roman", serif;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -171,7 +171,7 @@ section h4 {
   }
 
   .time-box span {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .countdown-title {
@@ -256,9 +256,16 @@ section h4 {
 
 .timeline-title h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 4rem;
+  margin-bottom: 2rem;
   color: #1a1a1a !important; /* Olive tone */
+}
+
+.timeline-title h3 {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #555 !important; /* Olive tone */
 }
 
 .map-button {
@@ -293,7 +300,7 @@ section h4 {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   width: 50%;
   z-index: 2;
 }
@@ -311,7 +318,7 @@ section h4 {
 }
 
 .timeline-box {
-  padding: 1.5rem;
+  padding: .02rem;
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid transparent;
   border-radius: 10px;
@@ -324,24 +331,24 @@ section h4 {
 .timeline-icon-img {
   width: 60px;
   height: auto;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 /* Text inside boxes */
 .timeline-info h3 {
   font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   margin: 0;
   color: #E7DED5;
 }
 
 .timeline-info p {
-  margin: 0.5rem 0;
+  margin: 1.5rem 0;
   color: #1a1a1a;
 }
 
 .timeline-info span {
-  font-weight: regular;
+  font-weight: flex;
   color: rgb(94, 94, 94);
 }
 
@@ -373,7 +380,7 @@ section h4 {
   
   .dresscode-content h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: #1a1a1a;
     margin-bottom: 2rem;
   }
@@ -388,14 +395,14 @@ section h4 {
   .dresscode-details p,
   .outfit-inspo-text p {
     font-family: 'Playfair Display', serif;
-    font-size: 1rem;
+    font-size: 1.15rem;
     margin: 0.5rem 0;
     color: #555;
   }
   
   .dresscode-content h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #1a1a1a;
     margin-top: 4rem;
   }
@@ -428,14 +435,14 @@ section h4 {
   
   .gifts-content h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: #1a1a1a;
     margin-bottom: 1rem;
   }
   
   .gifts-content p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 1.20rem;
     color: #555;
     margin-bottom: 2rem;
   }
@@ -476,39 +483,7 @@ section h4 {
     text-transform: uppercase;
     font-weight: bold;
   }
-  
-  .quote-section {
-    background-image: url('Foto\ quote.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-  }
-  
-  .quote-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0,0);
-    display: flex;
-    align-items: top;
-    justify-content: center;
-    padding: 2rem;
-  }
-  
-  .quote-content h2 {
-    font-size: 1.2rem;
-    font-family: 'Playfair Display', serif;
-    max-width: 700px;
-    padding-top: 4rem;
-  }
-  
+    
   .rsvp-section {
     background-color: #ffffff;
     padding: 6rem 6rem;
@@ -524,7 +499,7 @@ section h4 {
   
   .rsvp-content h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: #1a1a1a;
     margin-bottom: 1rem;
   }
@@ -599,7 +574,7 @@ section h4 {
   
   .rsvp-content h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
     color: #1a1a1a; /* olive green text */
   }
@@ -630,7 +605,7 @@ section h4 {
   
   .parents-content h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
     color: #1a1a1a; /* Olive green */
   }
@@ -658,12 +633,12 @@ section h4 {
     font-family: 'Cormorant SC';
     color: #1a1a1a;
     margin-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   
   .parent-card p {
     margin: 0.5rem 0;
-    font-size: 1rem;
+    font-size: 1.15rem;
     color: #555;
   }
 
@@ -683,7 +658,7 @@ section h4 {
     max-width: 1000px;
     margin: auto;
     position: relative;
-    padding: 2rem;
+    padding: 1rem;
   }
   
   
@@ -711,7 +686,7 @@ section h4 {
     align-items: center;
     justify-content: flex-end;
     width: 50%;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     position: relative;
     z-index: 2;
     opacity: 0;
